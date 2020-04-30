@@ -1,10 +1,10 @@
 package com.company;
 
-public class Animal {
+public class mrAndMrsExceptional {
     private int age;
     private String name;
 
-    public Animal(int age, String name) {
+    public mrAndMrsExceptional(int age, String name) {
         this.age = age;
         this.name = name;
     }
@@ -13,15 +13,7 @@ public class Animal {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }
